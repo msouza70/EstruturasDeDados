@@ -47,6 +47,7 @@ int main() {
     cout << "A media e: " << (float)soma/TAM << endl;
     
     //BONUS
+    //Bônus
     for (int i=0;i<TAM;i++)
         vetorB[TAM-i-1]=vetor[i];
     
