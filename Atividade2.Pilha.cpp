@@ -45,6 +45,7 @@ void topo() {
 //Bônus
 void verifica() {
     string expr = "(a+b)(";
+    string expr = "((a+b))";
     int tamanho = expr.size();
     for (int i=0; i<tamanho; i++) {
         if (expr[i]=='(')
