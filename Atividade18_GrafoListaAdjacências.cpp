@@ -34,7 +34,7 @@ void insere(int valor) {
 }
 
 
-void insere_aresta(int orig, int dest) {
+void insereAresta(int orig, int dest) {
     int i=0;
     int j=0;
     struct no *atual, *anterior, *novo;
@@ -69,7 +69,7 @@ void insere_aresta(int orig, int dest) {
     cout << "Aresta inserida" << endl;
 }
 
-void remove_aresta(int orig, int dest) {
+void removeAresta(int orig, int dest) {
     int i=0;
     int j=0;
     struct no *atual, *anterior;
@@ -121,9 +121,9 @@ int main() {
     insere(30);
     insere(40);
     insere(50);
-    insere_aresta(10,40);
-    insere_aresta(10,50);
-    remove_aresta(10,40);
+    insereAresta(10,40);
+    insereAresta(10,50);
+    removeAresta(10,40);
     imprimeGrafo();
 
 }
